@@ -17,10 +17,11 @@ namespace WinRep_Code
         public App()
         {
             IServiceCollection services = new ServiceCollection();
+            services.AddSingleton<MainWindowVM>();
             services.AddSingleton<MainWindow>(Provider => new MainWindow
             {
                 DataContext = Provider.GetRequiredService<MainWindowVM>()
-            });
+            });  
             services.AddSingleton<CustomTweaksVM>();    
             services.AddSingleton<InstallVM>();
             services.AddSingleton<ScanSettingsVM>();

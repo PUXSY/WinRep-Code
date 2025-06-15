@@ -6,11 +6,9 @@ C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\WinR
 C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\WinRep-Code.pdb
 C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code_MarkupCompile.cache
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code_MarkupCompile.lref
-C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.g.resources
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.AssemblyInfoInputs.cache
@@ -36,3 +34,5 @@ C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\Scan.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\ScanSettings.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\Tweaks.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Utilities\DataTemplate.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.sourcelink.json

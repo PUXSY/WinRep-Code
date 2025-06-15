@@ -18,9 +18,9 @@ namespace WinRep_Code.Views
     /// <summary>
     /// Interaction logic for CustomTweaksVM.xaml
     /// </summary>
-    public partial class CustomTweaksVM : UserControl
+    public partial class CustomTweaks : UserControl
     {
-        public CustomTweaksVM()
+        public CustomTweaks()
         {
             InitializeComponent();
         }

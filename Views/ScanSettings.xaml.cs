@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WinRep_Code.ViewModels
+namespace WinRep_Code.Views
 {
     /// <summary>
     /// Interaction logic for ScanSettings.xaml

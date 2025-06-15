@@ -22,13 +22,12 @@ namespace WinRep_Code.ViewModels
         public RelayCommand NavigateToTweaksCommand { get; set; }
         public RelayCommand NavigateToInstallCommand { get; set; }
 
-        public MainWindowVM(INavigationService navigation)
+        public MainWindowVM(INavigationService navigation = null)
         {
             NavService = navigation;
             NavigateToScanCommand = new RelayCommand(_ => NavService.NavigateTo<ScanVM>(), _ => true);
             NavigateToTweaksCommand = new RelayCommand(_ => NavService.NavigateTo<TweaksVM>(), _ => true);
             NavigateToInstallCommand = new RelayCommand(_ => NavService.NavigateTo<InstallVM>(), _ => true);
         }
-
     }
 }

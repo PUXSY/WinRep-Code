@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:view="clr-namespace:WinRep_Code.Views"
+                    xmlns:vm="clr-namespace:WinRep_Code.ViewModels">
+
+    <DataTemplate DataType="{x:Type vm:TweaksVM}">
+        <view:Tweaks />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:CustomTweaksVM}">
+        <view:CustomTweaks />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:InstallVM}">
+        <view:Install />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ScanVM}">
+        <view:Scan />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ScanSettingsVM}">
+        <view:ScanSettings />
+    </DataTemplate>
+
+</ResourceDictionary>

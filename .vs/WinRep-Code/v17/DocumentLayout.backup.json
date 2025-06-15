@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\utilities\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:utilities\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataTemplate.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Utilities\\DataTemplate.xaml",
+              "RelativeDocumentMoniker": "Utilities\\DataTemplate.xaml",
+              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Utilities\\DataTemplate.xaml",
+              "RelativeToolTip": "Utilities\\DataTemplate.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-15T16:43:02.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -38,7 +38,7 @@ namespace WinRep_Code
         {
             var mainWindow = _serviceProvider.GetRequiredService<MainWindow>();
             mainWindow.Show();
-            base.OnStartup(e);
+            base.OnStartup(e);  
         }
     }
 }

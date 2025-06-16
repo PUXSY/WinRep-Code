@@ -14,7 +14,7 @@
                        Margin="0,20,0,0" 
                        Foreground="Wheat"/>
 
-        <Button Content="Scan" 
-                Command="{Binding NavigateToScanCommand}" Margin="0,130,0,0" />
+        <Button Content="Back to Tweaks" 
+                Command="{Binding NavigateToTweaksCommand}" Margin="0,130,0,0" />
     </Grid>
 </UserControl>

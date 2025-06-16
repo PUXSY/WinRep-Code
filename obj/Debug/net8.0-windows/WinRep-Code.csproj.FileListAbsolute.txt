@@ -36,3 +36,5 @@ C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Views\Tweaks.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Utilities\DataTemplate.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.sourcelink.json
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\NavigationButtonStyle.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\WindowControlButtonStyle.baml

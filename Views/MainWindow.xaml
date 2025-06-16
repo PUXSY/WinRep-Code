@@ -9,9 +9,10 @@
         Width="770" Height="430" 
         AllowsTransparency="True"
         Background="Transparent"
+        Foreground="#f4ddb5"
         WindowStyle="None">
 
-    <Border Background="#121214" 
+    <Border Background="#212222" 
             CornerRadius="15">
 
         <Grid>
@@ -21,25 +22,60 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <StackPanel Orientation="Horizontal" 
-                          Grid.Row="1" 
-                          HorizontalAlignment="Right" 
-                          Margin="0,5,10,0">
+            <StackPanel HorizontalAlignment="Right"
+                        Orientation="Horizontal" 
+                        Grid.Row="1" 
+                        Margin="0,5,10,0">
 
+                <Button Content="−" 
+                        Width="30" Height="20"
+                        Command="{Binding CloseCommand}"
+                        Style="{StaticResource MinimizeButtonStyle}" 
+                        Background="#FF1E1E1E"
+                        Foreground="White"
+                        BorderBrush="#FF333333"
+                        BorderThickness="1" 
+                        Margin="0,0,5,0"
+                        Click="MinimizeWindow"/>
+
+                <Button Content="X" 
+                        Width="30" Height="20"
+                        Command="{Binding CloseCommand}"
+                        Style="{StaticResource CloseButtonStyle}" 
+                        Background="#FF1E1E1E"
+                        Foreground="White"
+                        BorderBrush="#FF333333"
+                        BorderThickness="1" 
+                        Margin="0,0,5,0"
+                        Click="CloseWindow"/>
             </StackPanel>
+
 
             <StackPanel Grid.Row="1"
                         HorizontalAlignment="Center"
-                        Orientation="Horizontal" >
+                        Orientation="Horizontal"
+                        Margin="0,8,0,0">
 
                 <Button Content="Tweaks" 
-                        Command="{Binding NavigateToTweaksCommand}" />
-                
+                        Command="{Binding NavigateToTweaksCommand}"
+                        Style="{StaticResource NavigationButtonStyle}" 
+                        Height="35"
+                        Width="85"
+                        Margin="0,0,8,0" />
+
                 <Button Content="Install" 
-                        Command="{Binding NavigateToInstallCommand}" />
-                
+                        Command="{Binding NavigateToInstallCommand}"
+                        Style="{StaticResource NavigationButtonStyle}" 
+                        Height="35"
+                        Width="85"
+                        Margin="0,0,8,0" />
+
                 <Button Content="Scan" 
-                        Command="{Binding NavigateToScanCommand}" />
+                        Command="{Binding NavigateToScanCommand}" 
+                        Style="{StaticResource NavigationButtonStyle}" 
+                        Height="35"
+                        Width="85"
+                        Margin="0,0,8,0" />
             </StackPanel>
 
             <ContentControl Grid.Row="2"

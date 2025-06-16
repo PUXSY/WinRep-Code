@@ -7,14 +7,13 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock Text="ScanSeting View" 
+        <TextBlock Text="Install View" 
                        HorizontalAlignment="Center" 
                        VerticalAlignment="Top" 
                        FontSize="24" 
                        Margin="0,20,0,0" 
                        Foreground="Wheat"/>
 
-        <Button Content="Scan" 
-                Command="{Binding NavigateToScanCommand}" Margin="0,130,0,0" />
+        
     </Grid>
 </UserControl>

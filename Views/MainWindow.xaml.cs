@@ -20,5 +20,16 @@ namespace WinRep_Code
         {
             InitializeComponent();
         }
+
+        private void MinimizeWindow(object sender, RoutedEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void CloseWindow(object sender, RoutedEventArgs e)
+        {
+            Close();
+            System.Environment.Exit(0);
+        }
     }
 }

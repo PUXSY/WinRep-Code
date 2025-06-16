@@ -1,12 +1,16 @@
 ﻿<Application x:Class="WinRep_Code.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WinRep_Code" >
+             xmlns:local="clr-namespace:WinRep_Code" 
+             xmlns:Style="/Style">
     <Application.Resources>
         <ResourceDictionary>
 
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Utilities/DataTemplate.xaml" />
+                <ResourceDictionary Source="/Style/NavigationButtonStyle.xaml" />
+                <ResourceDictionary Source="/Style/WindowControlButtonStyle.xaml" />
+                
             </ResourceDictionary.MergedDictionaries>
             
         </ResourceDictionary>

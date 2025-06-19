@@ -8,9 +8,7 @@
 
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Utilities/DataTemplate.xaml" />
-                <ResourceDictionary Source="/Style/NavigationButtonStyle.xaml" />
-                <ResourceDictionary Source="/Style/WindowControlButtonStyle.xaml" />
-                
+                <ResourceDictionary Source="Utilities/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
             
         </ResourceDictionary>

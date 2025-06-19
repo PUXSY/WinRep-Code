@@ -38,3 +38,13 @@ C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Utilit
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\WinRep-Code.sourcelink.json
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\NavigationButtonStyle.baml
 C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\WindowControlButtonStyle.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\System.CodeDom.dll
+C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\System.Management.dll
+C:\Users\User\source\Projects\WinRep\WinRep-Code\Build\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Management.dll
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\BackButtonStyle.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Utilities\Styles.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\HoverableTweakBorderStyle.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\TweaksButtonStyle.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\BodyText.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\SmallText.baml
+C:\Users\User\source\Projects\WinRep\WinRep-Code\obj\Debug\net8.0-windows\Style\TitleText.baml

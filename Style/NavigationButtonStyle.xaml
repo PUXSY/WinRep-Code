@@ -1,46 +1,53 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    
-    <Style x:Key="NavigationButtonStyle" TargetType="Button">
+
+    <Style x:Key="NavigationButtonStyle" TargetType="RadioButton">
         <Setter Property="Background" Value="#292324"/>
         <Setter Property="Foreground" Value="#f4ddb5"/>
         <Setter Property="BorderBrush" Value="#37180b"/>
         <Setter Property="BorderThickness" Value="1"/>
-        <Setter Property="Padding" Value="20,8"/>
-        <Setter Property="FontSize" Value="14"/>
-        <Setter Property="FontWeight" Value="Medium"/>
+        <Setter Property="Padding" Value="20,6"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="Button">
+                <ControlTemplate TargetType="RadioButton">
                     <Border x:Name="border"
-                                        Background="{TemplateBinding Background}"
-                                        BorderBrush="{TemplateBinding BorderBrush}"
-                                        BorderThickness="{TemplateBinding BorderThickness}"
-                                        CornerRadius="8"
-                                        SnapsToDevicePixels="true">
-                        <ContentPresenter x:Name="contentPresenter"
-                                                    Focusable="False"
-                                                    HorizontalAlignment="Center"
-                                                    VerticalAlignment="Center"
-                                                    Margin="{TemplateBinding Padding}"
-                                                    RecognizesAccessKey="True"
-                                                    SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="3"
+                        SnapsToDevicePixels="True">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                      VerticalAlignment="Center"
+                                      Margin="{TemplateBinding Padding}"
+                                      RecognizesAccessKey="True"/>
                     </Border>
                     <ControlTemplate.Triggers>
-                        <Trigger Property="IsMouseOver" Value="true">
-                            <Setter Property="Background" TargetName="border" Value="#ea550b"/>
-                            <Setter Property="BorderBrush" TargetName="border" Value="#ea550b"/>
+                        <!-- Hover -->
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#37180b"/>
+                            <Setter TargetName="border" Property="BorderBrush" Value="#ea550b"/>
+                        </Trigger>
+
+                        <!-- Pressed -->
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#ea550b"/>
+                            <Setter TargetName="border" Property="BorderBrush" Value="#ea550b"/>
+                        </Trigger>
+
+                        <!-- Checked (Selected) -->
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#ea550b"/>
+                            <Setter TargetName="border" Property="BorderBrush" Value="#ea550b"/>
                             <Setter Property="Foreground" Value="#f4ddb5"/>
                         </Trigger>
-                        <Trigger Property="IsPressed" Value="true">
-                            <Setter Property="Background" TargetName="border" Value="#37180b"/>
-                            <Setter Property="BorderBrush" TargetName="border" Value="#37180b"/>
-                            <Setter Property="Foreground" Value="#f4ddb5"/>
-                        </Trigger>
-                        <Trigger Property="IsEnabled" Value="false">
-                            <Setter Property="Background" TargetName="border" Value="#1a1a1a"/>
-                            <Setter Property="BorderBrush" TargetName="border" Value="#333333"/>
+
+                        <!-- Disabled -->
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="border" Property="Background" Value="#1a1a1a"/>
+                            <Setter TargetName="border" Property="BorderBrush" Value="#333333"/>
                             <Setter Property="Foreground" Value="#666666"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
@@ -48,4 +55,5 @@
             </Setter.Value>
         </Setter>
     </Style>
+
 </ResourceDictionary>

@@ -15,6 +15,10 @@
                        Foreground="Wheat"/>
 
         <Button Content="Back to Tweaks" 
-                Command="{Binding NavigateToTweaksCommand}" Margin="0,130,0,0" />
+                Command="{Binding NavigateToTweaksCommand}" 
+                Style="{StaticResource BackButtonStyle}"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="25,25,0,0"/>
     </Grid>
 </UserControl>

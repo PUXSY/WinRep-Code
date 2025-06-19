@@ -5,19 +5,79 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WinRep_Code.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="650" d:DesignWidth="1375">
     <Grid>
-        <TextBlock Text="TWeaks View" 
-                       HorizontalAlignment="Center" 
-                       VerticalAlignment="Top" 
-                       FontSize="24" 
-                       Margin="0,20,0,0" 
-                       Foreground="Wheat"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="45"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <Button Content="Custom Tweaks" 
-                Command="{Binding NavigateToCustomTweaksCommand}" Margin="0,130,0,0" />
+        <!-- Basic Tweak-->
+        <ContentControl Style="{StaticResource HoverableTweakBorderStyle}"
+                        Grid.Column="1" Grid.Row="1">
+            <Grid>
+                <TextBlock Text="Basic Tweak" 
+                           VerticalAlignment="Top" 
+                           Style="{StaticResource TitleText}"/>
 
+                <TextBlock Text="sad" 
+                           VerticalAlignment="Center" 
+                           Margin="0,0,0,0"
+                           Style="{StaticResource BodyText}"/>
 
+                <TextBlock Text="tests" 
+                           VerticalAlignment="Bottom" 
+                           Margin="0,0,0,100"
+                           Style="{StaticResource SmallText}"/>
+                
+                <Button Style="{StaticResource TweaksButtonStyle}"
+                    Content="Install Tweak" VerticalAlignment="Bottom"
+                    Margin="0,0,0,25" />
+            </Grid>
+
+            
+        </ContentControl>
+
+        <ContentControl Style="{StaticResource HoverableTweakBorderStyle}"
+                        Grid.Column="2" Grid.Row="1">
+            <Grid>
+                <TextBlock Text="Gaming Tweak" 
+                           VerticalAlignment="Top" 
+                           Style="{StaticResource TitleText}"/>
+                
+                <Button Style="{StaticResource TweaksButtonStyle}"
+                    Content="Install Tweak" VerticalAlignment="Bottom"
+                    Margin="0,0,0,25"/>
+            </Grid>
+
+        </ContentControl>
+
+        <ContentControl Style="{StaticResource HoverableTweakBorderStyle}"
+                        Grid.Column="3" Grid.Row="1">
+
+            <Grid>
+                <TextBlock Text="Custom Tweak" 
+                           VerticalAlignment="Top" 
+                           Style="{StaticResource TitleText}"/>
+
+                <Button Style="{StaticResource TweaksButtonStyle}"
+                    Command="{Binding NavigateToCustomTweaksCommand}" 
+                    Content="Custom Tweak" VerticalAlignment="Bottom"
+                    Margin="0,0,0,25"/>
+            </Grid>
+
+        </ContentControl>
 
     </Grid>
 </UserControl>

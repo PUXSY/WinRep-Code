@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\User\source\Projects\WinRep\WinRep-Code\App.xaml
-9-454242103
+16-989861218
 
-18-1282817514
-200343379960
-Style\NavigationButtonStyle.xaml;Style\WindowControlButtonStyle.xaml;Utilities\DataTemplate.xaml;Views\CustomTweaks.xaml;Views\Install.xaml;Views\MainWindow.xaml;Views\Scan.xaml;Views\ScanSettings.xaml;Views\Tweaks.xaml;
+201778996710
+20166198077
+Style\BackButtonStyle.xaml;Style\BodyText.xaml;Style\HoverableTweakBorderStyle.xaml;Style\NavigationButtonStyle.xaml;Style\SmallText.xaml;Style\TitleText.xaml;Style\TweaksButtonStyle.xaml;Style\WindowControlButtonStyle.xaml;Utilities\DataTemplate.xaml;Utilities\Styles.xaml;Views\CustomTweaks.xaml;Views\Install.xaml;Views\MainWindow.xaml;Views\Scan.xaml;Views\ScanSettings.xaml;Views\Tweaks.xaml;
 
 False
 

@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        
+        <ResourceDictionary Source="/Style/NavigationButtonStyle.xaml" />
+        <ResourceDictionary Source="/Style/WindowControlButtonStyle.xaml" />
+        <ResourceDictionary Source="/Style/BackButtonStyle.xaml" />
+        <ResourceDictionary Source="/Style/HoverableTweakBorderStyle.xaml" />
+        <ResourceDictionary Source="/Style/TweaksButtonStyle.xaml" />
+        <ResourceDictionary Source="/Style/TitleText.xaml" />
+        <ResourceDictionary Source="/Style/BodyText.xaml" />
+        <ResourceDictionary Source="/Style/SmallText.xaml" />
+
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

@@ -7,32 +7,8 @@
       "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:src\\essentialtweaks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\utilities\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:utilities\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\views\\tweaks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:views\\tweaks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\style\\titletext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:style\\titletext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\style\\smalltext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:style\\smalltext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\style\\bodytext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:style\\bodytext.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|c:\\users\\user\\source\\projects\\winrep\\winrep-code\\src\\itweakprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3B7A7AD-75F0-4C13-923D-A26A22078837}|WinRep-Code.csproj|solutionrelative:src\\itweakprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITweakProvider.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Src\\ITweakProvider.cs",
+              "RelativeDocumentMoniker": "Src\\ITweakProvider.cs",
+              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Src\\ITweakProvider.cs",
+              "RelativeToolTip": "Src\\ITweakProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:31:14.671Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -52,93 +40,10 @@
               "RelativeDocumentMoniker": "Src\\EssentialTweaks.cs",
               "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Src\\EssentialTweaks.cs",
               "RelativeToolTip": "Src\\EssentialTweaks.cs",
-              "ViewState": "AgIAAKQBAAAAAAAAAAApwPsCAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8BAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T12:48:09.194Z",
+              "WhenOpened": "2025-06-20T12:30:48.728Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T17:10:32.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T17:04:39.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Utilities\\Styles.xaml",
-              "RelativeDocumentMoniker": "Utilities\\Styles.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Utilities\\Styles.xaml",
-              "RelativeToolTip": "Utilities\\Styles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T16:41:01.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SmallText.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\SmallText.xaml",
-              "RelativeDocumentMoniker": "Style\\SmallText.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\SmallText.xaml",
-              "RelativeToolTip": "Style\\SmallText.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T16:42:38.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BodyText.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\BodyText.xaml",
-              "RelativeDocumentMoniker": "Style\\BodyText.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\BodyText.xaml",
-              "RelativeToolTip": "Style\\BodyText.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T16:42:29.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TitleText.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\TitleText.xaml",
-              "RelativeDocumentMoniker": "Style\\TitleText.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Style\\TitleText.xaml",
-              "RelativeToolTip": "Style\\TitleText.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T16:38:18.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tweaks.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\Tweaks.xaml",
-              "RelativeDocumentMoniker": "Views\\Tweaks.xaml",
-              "ToolTip": "C:\\Users\\User\\source\\Projects\\WinRep\\WinRep-Code\\Views\\Tweaks.xaml",
-              "RelativeToolTip": "Views\\Tweaks.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-17T13:24:06.596Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

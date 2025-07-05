@@ -4,8 +4,6 @@ using System.IO;
 using System.Management;
 using System.Text.Json;
 using System.Text.Json.Nodes;
-using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace WinRep_Code.Src
 {
@@ -301,6 +299,39 @@ namespace WinRep_Code.Src
                 Console.WriteLine($"Exception while creating restore point: {ex.Message}");
                 return false;
             }
+        }
+
+        public bool ResetWifiAdapter()
+        {
+            string[] ProcessArgumentsList =
+            {
+                "netsh winsock reset",
+                "netsh int ip reset",
+                "ipconfig /release",
+                "ipconfig /renew",
+                "ipconfig /flushdns"
+            };
+
+            Process p = new Process();
+            p.StartInfo.FileName = "powercfg";
+            p.StartInfo.UseShellExecute = false;
+            p.StartInfo.CreateNoWindow = true;
+
+            try
+            {
+                foreach (string arg in ProcessArgumentsList)
+                {
+                    p.StartInfo.Arguments = arg;
+                    p.Start();
+                    p.WaitForExit();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to reset Wifi Adapter: {ex.Message}");
+                return false;
+            }
+            return true;
         }
 
         public bool ApplyEdgeDebloatTweaks()
@@ -757,7 +788,5 @@ namespace WinRep_Code.Src
             return true;
 
         }
-
-
     }
 }
